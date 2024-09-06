@@ -7,7 +7,7 @@ Window Python Script
 
 - This script is designed to analyze an alignment file in FASTA format, calculating the number of differences (SNPs) within a specified sliding window across the alignment.
   
-- This script will work if the alignment contains amino acids (AA) or nucleotide sequences, but both sequences have to be the same.
+- This script will work if the alignment contains amino acids (AA) or nucleotide sequences, but both sequences have to be in the same format.
 - The script will report the number of differences between the sequences within the 'Window'
 - The "Window" is the number of basepairs that will be examined for differences. You specify the size of the window with -w, or --window.
 - You are required to specify the fasta file with the -a, --alignment argument. 
